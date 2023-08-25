@@ -14,12 +14,7 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
-    "commands": [
-      {
-        "command": "spot-trailing-whitespace.highlightTrailingWhitespace",
-        "title": "Highligh Trailing Whitespace"
-      }
-    ]
+    "commands": []
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
